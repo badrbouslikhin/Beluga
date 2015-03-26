@@ -1,0 +1,11 @@
+***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT LM2731_33_BOOST_BLOCK_L1_WB_INDUCTOR 1 2
+*{ L = 2.2E-5 DCR = 0.77 }
+* PARAMETERS: L INDUCTANCE IN HENRIES, DCR DC SERIES RESISTANCE IN OHMS
+
+L1 2 3 2.2E-5
+RDCR 3 1 0.77
+
+.ENDS
