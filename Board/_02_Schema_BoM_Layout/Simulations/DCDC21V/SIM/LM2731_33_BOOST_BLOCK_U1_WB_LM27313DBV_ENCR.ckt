@@ -1,0 +1,32 @@
+***
+*$
+*U1_LM27313XMF/NOPB
+*****************************************************************************
+* (C) Copyright 2013 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of
+** merchantability or fitness for a particular purpose. The model is
+** provided solely on an "as is" basis. The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+** Released by: WEBENCH(R) Design Center, Texas Instruments Inc.
+* Part: U1_LM27313XMF/NOPB
+* Model Type: Transient
+* Simulator: TINA
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+***************************************************************************
+.SUBCKT LM2731_33_BOOST_BLOCK_U1_WB_LM27313DBV_ENCR SW GND FDBACK SHDN VIN
+.include pspice://../LM2731_33_BOOST_BLOCK.U1.WB_LM27313DBV.enl
+XCALL SW GND FDBACK SHDN VIN LM2731_33_BOOST_BLOCK_U1_WB_LM27313DBV 
+.ENDS
