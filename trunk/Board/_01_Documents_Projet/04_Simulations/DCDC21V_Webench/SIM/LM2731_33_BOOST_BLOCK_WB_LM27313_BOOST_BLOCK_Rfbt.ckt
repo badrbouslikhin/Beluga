@@ -1,0 +1,7 @@
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt LM2731_33_BOOST_BLOCK_WB_LM27313_BOOST_BLOCK_Rfbt 6 5
+Rfbt 6 5 215000.0
+
+.ends
