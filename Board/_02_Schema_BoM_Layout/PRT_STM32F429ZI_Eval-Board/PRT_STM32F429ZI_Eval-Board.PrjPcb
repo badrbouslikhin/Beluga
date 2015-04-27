@@ -1211,6 +1211,7 @@ PartTypes=0
 ProjectToDo1=Name=Verify the value and footprint of the inductor|State=1|UID=GEWJRVKB
 ProjectToDo2=Name=Verify Buck/Boost footprints (modified libraries)|UID=EMJCLQUB
 ProjectToDo3=Name=Add supplier links for all components|State=1|UID=CMHXTEUN
+ProjectToDo4=Name=Wire BYTE#, WP#/ACC, RESET#, Backlight_Shutdown|UID=LWGKGEQY
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
