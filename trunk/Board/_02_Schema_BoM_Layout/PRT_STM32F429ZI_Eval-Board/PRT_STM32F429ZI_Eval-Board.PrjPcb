@@ -71,6 +71,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BQIWVGYX
 
 [Document3]
+DocumentPath=STM32F429ZI.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DJBDDBOM
+
+[Document4]
 DocumentPath=RAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,7 +104,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LKVSRQYJ
 
-[Document4]
+[Document5]
 DocumentPath=NOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,7 +121,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RGWVLHSF
 
-[Document5]
+[Document6]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -120,23 +137,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RORCJBQD
-
-[Document6]
-DocumentPath=STM32F429ZI.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DJBDDBOM
 
 [Document7]
 DocumentPath=IO_Peripherals.SchDoc
@@ -325,6 +325,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document18]
+DocumentPath=PRT_STM32F429ZI_Eval-Board.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document19]
+DocumentPath=SB7043.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UXCVNTGC
+
 [ProjectVariant1]
 Description=Cheap
 AllowFabrication=0
@@ -334,10 +368,14 @@ Variation1=Designator=SW3|UniqueId=\CWTONCFB\YJBYOXVY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=..\..\..\..\..\..\Desktop\PRT_STM32F429ZI_Eval-Board.xls
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Design Rule Check - SB7043.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=..\..\..\..\..\..\Desktop\PRT_STM32F429ZI_Eval-Board.xls
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=..\..\..\..\..\..\Desktop\PRT_STM32F429ZI_Eval-Boardx2.xls
 DItemRevisionGUID=
 
@@ -1230,6 +1268,7 @@ ProjectToDo3=Name=Add supplier links for all components|State=1|UID=CMHXTEUN
 ProjectToDo4=Name=Wire BYTE#, WP#/ACC, RESET#, Backlight_Shutdown|State=1|UID=LWGKGEQY
 ProjectToDo5=Name=Resolve the PD6 FMC/LTDC conflict|State=1|UID=PSCBXFWI
 ProjectToDo6=Name=Connect the LTDC clock~1PG7|Priority=4|State=1|UID=AMNHFBTF
+ProjectToDo7=Name=Make sure Power Supply through vias is correct.|UID=MWCBHUES
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
