@@ -1,0 +1,89 @@
+% !TEX encoding = UTF-8 Unicode
+% !TEX TS-program = pdflatex
+
+\documentclass[12pt,a4paper]{article}
+\usepackage{import}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[frenchb]{babel}
+\usepackage[frenchb]{translator}
+\frenchbsetup{StandardItemLabels=true, CompactItemize=false, ReduceListSpacing=true}
+\frenchbsetup
+{
+StandardItemLabels=true,
+ItemLabels=\ding{43},
+}
+
+\usepackage[autolanguage]{numprint}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[official]{eurosym}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning, fit,petri,calc,through,shapes,topaths,plotmarks}
+
+\usepackage{listings}
+\usepackage{dirtree}
+\usepackage{bytefield}
+\usepackage{pgfgantt}
+\usepackage{afterpage}
+\usepackage{subcaption}
+\usepackage{pdfpages}
+\expandafter\def\csname ver@subfig.sty\endcsname{} % Disallow subfig package load by svg package
+
+\usepackage{setspace}
+\usepackage{mdframed}
+\usepackage{multirow}
+%\usepackage[maxfloats=56]{morefloats}
+\usepackage{float}
+\usepackage{rotfloat}
+\usepackage{hhline}
+\usepackage{rotating}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{tabularx}
+\usepackage{parnotes}
+\usepackage{tablefootnote}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, \emph{etc.})
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{textcomp}
+\usepackage{fullpage}
+\usepackage{rotating}
+%\usepackage[xindy,toc]{glossaries}
+%\usepackage[style=alphabetic,citestyle=alphabetic,backend=biber,backref=true]{biblatex}
+\usepackage{lastpage}
+
+\usepackage{anysize}
+\usepackage{fancyhdr}
+\usepackage{titling}
+
+% Macros
+
+\newcommand{\inclurepdf}[3]{
+  \begin{figure}[H]
+      \includegraphics[width=\textwidth]{#3}
+      \caption{#1}
+      \label{#2}
+  \end{figure}
+  }
+
+\newcommand{\sectionsansnumero}[1]{
+  \section*{#1}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\begin{document}
+\input{titlepage.tex}
+\newpage
+\tableofcontents{}
+\newpage
+\input{body.tex}
+
+\end{document}

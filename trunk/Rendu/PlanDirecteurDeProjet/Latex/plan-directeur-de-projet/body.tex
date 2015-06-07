@@ -1,0 +1,144 @@
+\sectionsansnumero{Introduction}
+	Ce PRT consiste en la création d'une carte de développement pouvant servir de base à d'autres projets en électronique.
+    Ne constituant pas un objet très intéressant du point de vue des diverses analyses, cette carte est vue comme l'élément central d'un poste de radio portatif multiprotocole.
+     Ainsi, les différents schémas sont réalisés avec cette carte comme étant l'élément principal, mais le produit vendable est le poste de radio.
+     Nous ferons donc une partie de l'analyse fonctionnelle externe ainsi que l'analyse de la concurrence pour la carte électronique au sein de la radio puis nous considérerons uniquement la carte électronique pour la suite de l'analyse.
+     
+     Ce document est donc structuré en trois parties~:
+    \begin{itemize}
+	    \item Partie 1~: Le cahier des charges fonctionnel délimite le produit et son usage.
+        \item Partie 2~: La démarche de développement présente les aspects plus techniques du projet.
+        \item Partie 3~: L'organisation situe la coordination des différentes étapes de la création du produit ainsi que l'analyse des risques associés.
+    \end{itemize}
+    
+\section{Cahier des charges fonctionnel}
+	\subsection{Approche marché}
+    	Pour pouvoir trouver sa place dans un environnement de plus en plus connecté, un poste de radio doit proposer les fonctionnalités attendues de récupération de contenu tels que les webradios ou la radio numérique (DAB) en plus des fonctionnalités classiques AM/FM.
+        Les principaux aspects de ce produit sont donc un design élégant et minimaliste ainsi qu'une grande compatibilité avec les différents protocoles de diffusion de radio (hertzienne ou internet).
+        Cet objet doit également être facile à utiliser, en offrant une interface unifiée à l'utilisateur ainsi que de fonctionnalités intelligentes avancées facilement utilisables et transparentes de son point de vue.
+        
+    \subsection{Cible et positionnement visés}
+    	La clientèle ciblée est la jeune génération, en recherche de connectivité, de simplicité dans l'usage des technologies modernes.
+        Le produit est ainsi pensé avec un design soigné et réaliser correctement sa fonction, sans complexité inutile.
+        Le prix ne doit pas être trop élevé, car ce produit ne vise pas les applications hautes-fidélités, mais doit attirer grâce à sa simplicité.
+        
+    \subsection{Analyse fonctionnelle externe}
+    	Cette partie introduit l'analyse fonctionnelle externe du poste de radio.
+        Plusieurs diagrammes tels que la bête à cornes, le cycle de vie ou encore le diagramme pieuvre sont présentés.
+        Le projet de PRT est au départ une carte de développement générique et dépourvue de fonctionnalités avancées. Cette analyse fonctionnelle est donc celle de cette carte, mais remise dans un contexte où elle servirait de base pour la conception d'un poste de radio portatif multiprotocole. 
+    
+    	\subsubsection{Bête à Cornes}
+        Le besoin et l'objectif du projet sont exprimés avec la bête à cornes suivante :
+        	\inclurepdf{Bête à Cornes}{BeteACorne}{PDF/BeteACorne.pdf}
+
+        \subsubsection{Diagramme Pieuvre}
+        	Le diagramme pieuvre renseigne sur les blocs principaux du produit, ainsi que leurs relations de contraintes et la fonctions qu'ils doivent remplir.
+            \inclurepdf{Diagramme Pieuvre}{DiagrammePieuvre}{PDF/Pieuvre.pdf}
+			\input{tableau_diagramme_pieuvre.tex}
+            
+            \subsubsection{Cycle de vie}
+        	Le cycle de vie du produit permet de ne pas oublier d'élément de l'environnement dans lequel notre produit va évoluer durant sa durée de vie.
+            \inclurepdf{Cycle de vie}{CycleDeVie}{PDF/CycleDeVie.pdf}
+            
+    \subsection{Analyse de la concurrence}
+    	Pure et Sagem sont les acteurs principaux de ce marché. Avec deux modèles principaux vendus respectivement à 100\euro{} et 111\euro{}.
+        Logitech s'est rétractée de ce marché après avoir sorti un modèle à plus de 300\euro{} en 2012. 
+\\Le Sagem RM50 offre un design extrêmement sobre, très classique avec une douzaine de boutons de contrôle.
+Il présente quelques fonctionnalités "smart" mais celles-ci restent limitées. Aucune application smartphone compagnon n'est proposée.
+Il n'a pas de batterie, donc aucune possibilité de nomadisme. Il manque également un port USB pour la lecture du contenu personnel.
+Autrement les retours sont globalement bons sur ce produit.
+
+Le Pure One Flow est plus compact, il présente un design également très sobre et très classique.
+Cependant la batterie est proposée en option à un prix relativement élevé.
+Les retours ne sont pas particulièrement bons sur ce produit~: les commandes sont complexes, l'assemblage de mauvaise qualité, mais le produit remplit correctement sa fonction.
+
+Le design que nous souhaitons proposer, les solutions simples et intégrées, les fonctionnalités dites "smart" que nous souhaitons proposer ainsi que le prix sont donc nos principaux éléments de différenciation.
+        
+    \subsection{Principes technologiques imposés}
+		La carte de développement doit fournir les outils de base permettant à un concepteur de tester des idées, afin d'accélérer le développement du produit. 
+    	Elle est constituée d'un microcontrôleur permettant d'utiliser un système d'exploitation GNU/Linux.
+        Pour arriver à cet objectif, la carte possède également de la mémoire de stockage de masse (mémoire NOR) ainsi que de la RAM externe au micro contrôleur. 
+        Quelques périphériques seront exploités, comme un port USB OTG High Speed, un écran tactile et un bus à choisir pour lequel un pilote sera développé.
+        Étant un sujet proposé par le binôme, le cahier des charges est souple, l'objectif principal du projet étant la confrontation aux différents problèmes que l'on rencontre dans la mise en œuvre de ces technologies.
+        
+\section{Démarche de développement}
+
+	\subsection{Phasage}   	 
+     Le diagramme de phasage donne un aperçu des différentes phases de développement en listant les tâches principales associées.     
+     \inclurepdf{Phasage du projet}{Phasage}{PDF/Phasage.pdf}
+     
+    \subsection{Choix de conception}
+    	Le choix de réaliser une carte à base d'un microcontrôleur ARM Cortex M4 (STM32F429) vient de la volonté de concevoir une carte de développement supportée par le noyau Linux. Une carte basée sur un ARM Cortex A a été envisagé, mais l'idée a été rejetée à cause de la difficulté technique (boîtier du composant en BGA très délicat à souder manuellement, bus haute fréquence, etc.).
+        En revanche, le microcontrôleur choisi est bon marché et est suffisamment simple pour être manipulé et débuggé avec les moyens à disposition.
+        L'usage du noyau uClinux au lieu du noyau Linux standard est dû aux caractéristiques techniques du microcontrôleur (absence de Memory Management Unit).
+       
+       Afin de pouvoir satisfaire les besoins d'un tel système, il est indispensable d'inclure une mémoire de masse (mémoire NOR) ainsi que une extension externe de mémoire vive (SDRAM).
+        Un écran LCD tactile et un port USB seront ajoutés au projet, afin de pouvoir réaliser des démonstrations plus attractives.
+       
+       	D'un côté pédagogique, un bus relativement simple (I2C ou SPI) sera exploité par le biais de l'écriture d'un pilote pour uClinux.
+    	Enfin, un port SWD sera utilisé pour le débogage.
+        
+    \subsection{Organigramme technique}
+    	Le diagramme technique illustre les principaux blocs que l'on retrouve sur la carte de développement et leurs interactions~:
+    	\inclurepdf{Schéma-bloc de la carte de développement}{SchemaBloc}{PDF/Bloc_Diagram_PRT.pdf}
+      	
+      
+\section{Organisation}
+	\subsection{Planning Gantt}
+    	Le planning de Gantt permet de repérer le découpage en tâche du travail à faire et de le répartir sur le temps imparti.
+        Sa limite est la connaissance de la durée des étapes, ainsi que des problèmes susceptibles d'apparaître.
+    
+	    \begin{figure}[H]
+			\centering
+            \includegraphics[angle=90,scale=0.33]{Gantt/gantt1.png}
+            \caption{Diagramme de Gantt, partie 1}
+		\end{figure}
+        
+	    \begin{figure}[H]
+			\centering                    
+    	    \includegraphics[angle=90,scale=0.5]{Gantt/gantt2.png}
+            \caption{Diagramme de Gantt, partie 2}
+		\end{figure}
+
+	    \begin{figure}[H]
+			\centering
+      		\includegraphics[angle=90,scale=0.7]{Gantt/gantt3.png}
+            \caption{Diagramme de Gantt, partie 3}
+		\end{figure}
+
+	    \begin{figure}[H]
+			\centering
+     		\includegraphics[angle=90,scale=0.8]{Gantt/gantt4.png}
+            \caption{Diagramme de Gantt, partie 4}
+		\end{figure}
+
+	    \begin{figure}[H]
+			\centering
+            \includegraphics[angle=90,scale=0.6]{Gantt/gantt5.png}
+            \caption{Diagramme de Gantt, partie 5}
+		\end{figure}
+        
+        
+    \subsection{Jalon de fin de phase}
+    	Les différentes phases sont marquées par un accomplissement validant les étapes intermédiaires.
+        Ces jalons sont importants pour s'assurer que les fonctions mises en \oe uvre dans une étape sont opérationnelles avant d'implémenter des fonctions qui en dépendent~:
+    	\begin{itemize}
+      		\item La rédaction du cahier des charge
+            \item La définition des interfaces de la carte (I/O)
+            \item La schématisation et le routage de la carte
+            \item La validation des fonctions de base (CPU, mémoires) grâce au bootloader et à la sonde de debug
+            \item La validation des fonctions plus complexes (écran LCD, USB)
+            \item Validation du système entier (application, espace utilisateur complet final avec BusyBox)
+            \item La soutenance finale
+      	\end{itemize}
+      
+    \subsection{Analyse préalable des risques}
+    	L'analyse des risques permet d'identifier les principaux problèmes susceptibles de se présenter et la manière de les gérer.
+    	\input{tableau_analyse_des_risques.tex}
+        
+        
+\sectionsansnumero{Conclusion}
+	Ce projet est à but avant tout pédagogique, avec pour objectif principal la montée en compétence sur les différentes technologies manipulées (implémentation de microcontrôleurs, mise en \oe uvre de uClinux, développement de pilotes).
+    Il est aussi l'occasion de se pencher sur la démarche de développement d'un produit fini sur un projet réaliste.
+    L'analyse fonctionnelle permet ainsi de mieux cerner le projet, et de diminuer les risques d'omission d'un aspect important mais pas directement visible au premier abord.
+
