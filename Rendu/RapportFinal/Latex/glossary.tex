@@ -1,0 +1,130 @@
+\newdualentry{SoC}
+{SoC}
+{System on Chip}
+{est un circuit intégré implémentant un coeur de processeur ainsi que tous les périphériques nécessaires à sont fonctionnement tel que de la mémoire vive et ROM, ainsi que des fonctions plus avancées comme des contrôleurs de bus (USB, I2C, etc.)}
+
+\newacronym{IC}{IC}{Integrated Circuit}
+\newacronym{PCB}{PCB}{Printed Circuit Board}
+
+\newdualentry{DSP}
+{DSP}
+{Digital Signal Processor}
+{en anglais Digital Signal Processor est une microprocesseur à part entière ou une unité dans un microprocesseur/microcontrôleur optimisé pour exécuter des applications de traitement numérique du signal (filtrage, extraction de signaux, etc.) le plus rapidement possible. Des instructions particulière comme le MAC (Multiply and Accumulate) sont au cœur des DSP}
+
+
+\newdualentry{FPU}
+{FPU}
+{Floating Point Unit}
+{est une unité de calcul en virgule flottante. C'est une partie d'un processeur, spécialement conçue pour effectuer des opérations sur des nombres à virgule flottante. Elle est très utile pour accélérer certains algorithmes}
+
+
+\newdualentry{M2M}
+{M2M}
+{Machine to machine}
+{désigne la communication entre machines}
+
+\newdualentry{GPIO}
+{GPIO}
+{General Purpose Input/Output}
+{permettent à une carte électronique la possibilité de communiquer avec d'autres circuits électroniques pour des usages divers et variés}
+
+\newglossaryentry{Gerber}
+{
+	name=Gerber,
+	description={est le standard le plus utilisé pour transmettre des informations concernant la fabrication des circuits imprimés.
+		Il contient la description des diverses couches de connexions électriques (pistes, pastilles, \angl{footprint} des CMS, les vias…)}
+}
+
+\newdualentry{MMU}
+{MMU}
+{Memory Management Unit}
+{permet à un processeur d'implémenter la mémoire virtuelle. La MMU permet ainsi de mapper des pages de mémoire virtuelle sur des pages de mémoire physique}
+
+\newdualentry{MPU}
+{MPU}
+{Memory Protection Unit}
+{permet à un processeur de protéger en écriture, lecture ou exécution certaines zones de la mémoire}
+
+
+\newdualentry{AHB}
+{AHB}
+{Advanced High-performance Bus}
+{est le bus principal interne de nombreux microcontrôleurs ARM (Cortex 3/4)}
+
+\newglossaryentry{THUMB}
+{
+	name=THUMB,
+	description={est un encodage des instructions ARM compact de taille variable. La plupart des instructions sont codées sur 16bits et d'autres plus rares sur 32bits, ce qui permet de gagner de la place et d'augmenter la vitesse d'exécution en rapportant la taille d'une instruction à la largeur habituelle du bus des mémoires NOR}
+}
+
+\newdualentry{PMU}
+{PMU}
+{Power Management Unit}
+{est un circuit intégré générant les tensions nécessaires au bon fonctionnement des autres circuits intégrés sur une carte, et séquence notamment les différentes alimentations du processeur lors de sa phase de démarrage}
+
+\newdualentry{FMC}
+{FMC}
+{Flexible Memory Controller}
+{permet au microcontrôleur STM32F429 d'accéder à des mémoires externes entre autre NOR et SDRAM. Il ne peut servir qu'une à la fois, ce qui empêche d'accéder simultanément à la RAM externe et à la Flash externe, ce qui est un goulet d'étranglement}
+
+\newglossaryentry{PHY}
+{
+	name=PHY,
+	description={est une abréviation couramment utilisée pour désigner la couche physique du modèle OSI (couche de plus bas niveau)}
+}
+
+\newdualentry{ULPI}
+{ULPI}
+{UTMI+ low pin interface}
+{est une interface standard pour le protocole économe en signaux permettant la communication entre le transceiver, contrôleur gérant la stack USB et le PHY drivant les lignes physiques D+/D-}
+    
+\newdualentry{ESR}
+{ESR}
+{Equivalent Series Resistance}
+{est une grandeur modélisant toutes les pertes présentes dans le condensateur exprimées sous la forme d'une résistance série}
+    
+\newdualentry{ESL}
+{ESL}
+{Equivalent Series Inductance}
+{est une valeur une inductance série d'un condensateur}
+
+
+\newdualentry{MII/RMII}
+{MII/RMII}
+{(Reduced) Media-independent interface}
+{est une interface standard pour le protocole Ethernet permettant la communication entre le transceiver, contrôleur gérant la stack Ethernet et le PHY drivant les lignes physiques}
+
+
+\newdualentry{XIP}
+{XIP}
+{eXecute In Place}
+{permet d'exécuter un programme directement depuis une mémoire flash NOR (mode de lecture mot par mot) sans avoir besoin de le copier en RAM d'abord comme il serait nécessaire de le faire si la mémoire était de la NAND}
+
+\newdualentry{SWD}
+{SWD}
+{Single Wire Debug}
+{est un standard de debug des processeurs ARM avec des fonctionnalités de debug proches du JTAG, mais en utilisant très peu de signaux (une horloge, un signal de données et une masse)}
+
+
+\newdualentry{JTAG}
+{JTAG}
+{Joint Test Action Group}
+{Joint Test Action Group est le nom de la norme IEEE 1149.1 intitulée « Standard Test Access Port and Boundary-Scan Architecture ». La technique de Boundary-Scan (littéralement, scrutation des frontières) est conçue pour faciliter et automatiser le test des cartes électroniques numériques. Elle consiste à donner un accès auxiliaire aux broches d'entrée-sortie des composants numériques fortement intégrés
+}
+
+\newdualentry{FTL}
+{FTL}
+{Flash Translation Layer}
+{est une couche d'abstraction entre les blocs physiques d'une mémoire Flash et les blocs logiques présentés à l'utilisateur. Elle est couramment employée afin d'implémenter le wear leveling permettant de répartir l'usure des secteurs sur la totalité de la mémoire pour prolonger sa durée de vie}
+
+
+\newdualentry{IP}
+{IP}
+{Intellectual Property}
+{est un bloc implémentant une fonction au sein d'un \gls{SoC}. Un microcontrôleur moderne possède donc un grand nombre d'IP pour ses périphériques}
+
+
+\newdualentry{CFI}
+{CFI}
+{Common Flash Interface}
+{est une interface standardisée par le JEDEC pour interroger les mémoires NOR à propos des valeurs de temporisations critiques telles que la durée nécessaire à l'écrasement d'un secteur}

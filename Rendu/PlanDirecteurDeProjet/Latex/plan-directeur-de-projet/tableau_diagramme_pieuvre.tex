@@ -1,0 +1,81 @@
+% Usage de sidewaystable au lieu de table pour mettre le tableau en paysage
+\begin{sidewaystable}[H]
+% Group for vertically centered cells
+\begingroup{}
+% Use vertically centered cells
+\def\tabularxcolumn#1{m{#1}}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|}
+\hline
+\rowcolor[HTML]{5B9BD5} 
+    & Fonctions de service
+    & Critères d'évaluations
+    & Niveau d'exigence
+    & Flexibilité
+    \\ \hline
+FP1
+  & Envoyer le signal sonore amplifié vers les haut-parleurs
+  & Puissance et qualité du son 
+  & 2x3W, son 'chaud' et non saturé
+  & F0 \newline Puissance~:±1W 
+  \\ \hline
+
+\rowcolor[HTML]{ACCCEA} 
+FP2
+  & Être alimentée par le secteur ou une batterie  et disposer d'une autonomie intéressante le cas échéant
+  & Bonne autonomie 
+  & 20h d'autonomie
+  & F0
+  \\ \hline
+  
+
+FC1
+  & Traiter les informations
+    provenant de l'écran tactile et des boutons
+  & Faible latence et fluidité des contrôles
+  	\newline Minimalisme des commandes possibles 
+    
+  & Moins de 100 ms entre l'appui et la réponse 
+  & F1 \newline Latence~: ±20ms
+  \\ \hline
+
+\rowcolor[HTML]{ACCCEA} 
+FC2
+  & S'intégrer au boitier en n'altérant pas le design de l'objet 
+  &            
+  & 
+  & 
+  \\ \hline
+  
+FC3
+  & Etablir une connectivité et traiter les informations provenant de l'application compagnon
+  & Faible latence et fluidité des contrôles
+    \newline Portée importanteMinimalisme des commandes possibles
+  & Moins de 100 ms entre l'appui et la réponse.
+    \newline Portée de 40m en indoor
+  & F1 \newline Latence~: ±20ms \newline Portée~: ±15m
+  \\ \hline
+
+\rowcolor[HTML]{ACCCEA} 
+FC4
+  & Respect des différentes normes en vigueur
+   \newline Normes CE principalement~:
+   \newline Compatibilité électromagnétique (CEM) - 2014/30/UE 
+   \newline et Équipements terminaux de télécommunication - 1999/5/CE
+
+  & Respect des normes 
+  & Toutes les normes doivent être respectées 
+  & F0 
+  \\ \hline
+  
+FC5 
+  & Traiter les données provenant du tuner  
+  & Traitement rapide et sans perte 
+  & Pas de pertes de données 
+  & F0
+  \\ \hline
+  
+\end{tabularx}
+\endgroup{}
+\caption{Fonctions principales et de contraintes}
+\end{sidewaystable}
