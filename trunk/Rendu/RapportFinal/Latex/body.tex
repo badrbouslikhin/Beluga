@@ -786,7 +786,7 @@ L'utilisation des mémoires suivantes permet d'exploiter au mieux les ressources
 	\item Flash interne (2Mo): Bootloader U-Boot (\~70Ko) + Noyau uClinux (\~700Ko)
 	\item RAM interne (256Ko): Pile du noyau (4Ko)
 	\item NOR externe (32Mo): Userspace (XIP)
-	\item SDRAM externe (16Mo): Données des programmes externes et du noyau
+	\item SDRAM externe (32Mo): Données des programmes externes et du noyau
 \end{itemize}
 La raison est la suivante~: la mémoire flash interne est accessible en un cycle, alors que la NOR externe est beaucoup plus longue à être lue.
 Le contrôleur des mémoires externes \gls{FMC} du STM32F429 ne peut en outre servir qu'un accès à la fois.
