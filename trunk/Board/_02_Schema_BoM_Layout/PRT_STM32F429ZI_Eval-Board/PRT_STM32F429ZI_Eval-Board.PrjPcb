@@ -1300,12 +1300,13 @@ PartTypes=0
 
 [ToDoManager]
 ProjectToDo1=Name=Verify the value and footprint of the inductor|State=1|UID=GEWJRVKB
-ProjectToDo2=Name=Verify Buck/Boost footprints (modified libraries)|UID=EMJCLQUB
+ProjectToDo2=Name=Verify Buck/Boost footprints (modified libraries)|State=1|UID=EMJCLQUB
 ProjectToDo3=Name=Add supplier links for all components|State=1|UID=CMHXTEUN
 ProjectToDo4=Name=Wire BYTE#, WP#/ACC, RESET#, Backlight_Shutdown|State=1|UID=LWGKGEQY
 ProjectToDo5=Name=Resolve the PD6 FMC/LTDC conflict|State=1|UID=PSCBXFWI
 ProjectToDo6=Name=Connect the LTDC clock~1PG7|Priority=4|State=1|UID=AMNHFBTF
 ProjectToDo7=Name=Make sure Power Supply through vias is correct.|UID=MWCBHUES
+ProjectToDo8=Name=Replace Tantale capacitors with MCC|Priority=3|UID=EKYQDYWG
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
