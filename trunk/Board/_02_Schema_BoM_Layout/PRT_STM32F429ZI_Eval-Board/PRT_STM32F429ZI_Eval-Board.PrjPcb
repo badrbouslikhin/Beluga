@@ -371,14 +371,6 @@ ParamVariationCount=0
 DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Design Rule Check - SB7043.html
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=..\..\..\..\..\..\Desktop\PRT_STM32F429ZI_Eval-Board.xls
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=..\..\..\..\..\..\Desktop\PRT_STM32F429ZI_Eval-Boardx2.xls
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=..\..\..\..\..\..\Downloads\Altium Designer v15 Multilingual-NEWiSO-[FirstUploads]\*.*
 IncludeSubFolders=1
