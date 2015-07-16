@@ -1,0 +1,134 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Badr\Documents\prt-ge-s2-2015-svn\trunk\Board\_02_Schema_BoM_Layout\PRT_STM32F429ZI_Eval-Board\SB7043.PcbDoc
+Date     : 16/07/2015
+Time     : 04:36:12
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-6 (64.762,23.675mm) And Pad J2-5 (65.088,22.75mm)
+   Violation between Un-Routed Net Constraint: Net GND Between Track on layer Top Layer (67.887,20.873mm) And Pad J2-8 (67.887,22.6mm)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-8 (2.163,20.35mm) And Pad J1-9 (2.163,22.65mm)
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: Pad J1-9(2.163mm,22.65mm)  Top Layer
+Rule Violations :5
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+   Violation between Area Fill (65.395mm,18.217mm) (67.445mm,19.233mm)  Top Layer and 
+                     Pad J2-10(67.887mm,17.363mm)  Multi-Layer
+   Violation between Area Fill (65.28mm,21.268mm) (72.78mm,21.632mm)  Top Layer and 
+                     Pad J2-10(67.887mm,17.363mm)  Multi-Layer
+   Violation between Area Fill (65.395mm,23.667mm) (67.445mm,24.683mm)  Top Layer and 
+                     Pad J2-7(67.887mm,25.538mm)  Multi-Layer
+   Violation between Area Fill (65.28mm,21.268mm) (72.78mm,21.632mm)  Top Layer and 
+                     Pad J2-7(67.887mm,25.538mm)  Multi-Layer
+   Violation between Area Fill (2.605mm,23.717mm) (4.655mm,24.733mm)  Top Layer and 
+                     Pad J1-10(2.163mm,25.588mm)  Multi-Layer
+   Violation between Area Fill (-2.73mm,21.318mm) (4.77mm,21.682mm)  Top Layer and 
+                     Pad J1-10(2.163mm,25.588mm)  Multi-Layer
+   Violation between Area Fill (-2.73mm,21.318mm) (4.77mm,21.682mm)  Top Layer and 
+                     Pad J1-7(2.163mm,17.413mm)  Multi-Layer
+   Violation between Area Fill (2.605mm,18.267mm) (4.655mm,19.283mm)  Top Layer and 
+                     Pad J1-7(2.163mm,17.413mm)  Multi-Layer
+   Violation between Area Fill (64.82mm,21.042mm) (68.22mm,21.858mm)  Top Layer and 
+                     Pad J2-9(67.887mm,20.3mm)  Top Layer
+   Violation between Area Fill (65.395mm,18.217mm) (67.445mm,19.233mm)  Top Layer and 
+                     Pad J2-9(67.887mm,20.3mm)  Top Layer
+   Violation between Area Fill (65.28mm,21.268mm) (72.78mm,21.632mm)  Top Layer and 
+                     Pad J2-9(67.887mm,20.3mm)  Top Layer
+   Violation between Area Fill (67.622mm,18.165mm) (68.152mm,20.085mm)  Top Layer and 
+                     Pad J2-9(67.887mm,20.3mm)  Top Layer
+   Violation between Area Fill (67.647mm,20.49mm) (68.127mm,22.41mm)  Top Layer and 
+                     Pad J2-9(67.887mm,20.3mm)  Top Layer
+   Violation between Area Fill (64.82mm,21.042mm) (68.22mm,21.858mm)  Top Layer and 
+                     Pad J2-8(67.887mm,22.6mm)  Top Layer
+   Violation between Area Fill (65.395mm,23.667mm) (67.445mm,24.683mm)  Top Layer and 
+                     Pad J2-8(67.887mm,22.6mm)  Top Layer
+   Violation between Area Fill (65.28mm,21.268mm) (72.78mm,21.632mm)  Top Layer and 
+                     Pad J2-8(67.887mm,22.6mm)  Top Layer
+   Violation between Area Fill (67.647mm,20.49mm) (68.127mm,22.41mm)  Top Layer and 
+                     Pad J2-8(67.887mm,22.6mm)  Top Layer
+   Violation between Area Fill (67.622mm,22.815mm) (68.152mm,24.735mm)  Top Layer and 
+                     Pad J2-8(67.887mm,22.6mm)  Top Layer
+   Violation between Area Fill (2.605mm,23.717mm) (4.655mm,24.733mm)  Top Layer and 
+                     Pad J1-9(2.163mm,22.65mm)  Top Layer
+   Violation between Area Fill (1.83mm,21.092mm) (5.23mm,21.908mm)  Top Layer and 
+                     Pad J1-9(2.163mm,22.65mm)  Top Layer
+   Violation between Area Fill (-2.73mm,21.318mm) (4.77mm,21.682mm)  Top Layer and 
+                     Pad J1-9(2.163mm,22.65mm)  Top Layer
+   Violation between Area Fill (1.923mm,20.54mm) (2.403mm,22.46mm)  Top Layer and 
+                     Pad J1-9(2.163mm,22.65mm)  Top Layer
+   Violation between Area Fill (1.898mm,22.865mm) (2.428mm,24.785mm)  Top Layer and 
+                     Pad J1-9(2.163mm,22.65mm)  Top Layer
+   Violation between Area Fill (1.83mm,21.092mm) (5.23mm,21.908mm)  Top Layer and 
+                     Pad J1-8(2.163mm,20.35mm)  Top Layer
+   Violation between Area Fill (-2.73mm,21.318mm) (4.77mm,21.682mm)  Top Layer and 
+                     Pad J1-8(2.163mm,20.35mm)  Top Layer
+   Violation between Area Fill (2.605mm,18.267mm) (4.655mm,19.283mm)  Top Layer and 
+                     Pad J1-8(2.163mm,20.35mm)  Top Layer
+   Violation between Area Fill (1.898mm,18.215mm) (2.428mm,20.135mm)  Top Layer and 
+                     Pad J1-8(2.163mm,20.35mm)  Top Layer
+   Violation between Area Fill (1.923mm,20.54mm) (2.403mm,22.46mm)  Top Layer and 
+                     Pad J1-8(2.163mm,20.35mm)  Top Layer
+   Violation between Area Fill (67.143mm,23.844mm) (68.631mm,25.744mm)  Top Layer and 
+                     Area Fill (67.622mm,22.815mm) (68.152mm,24.735mm)  Top Layer
+   Violation between Area Fill (67.144mm,17.156mm) (68.632mm,19.056mm)  Top Layer and 
+                     Area Fill (67.622mm,18.165mm) (68.152mm,20.085mm)  Top Layer
+   Violation between Area Fill (67.144mm,17.156mm) (68.632mm,19.056mm)  Top Layer and 
+                     Area Fill (65.28mm,21.268mm) (72.78mm,21.632mm)  Top Layer
+   Violation between Area Fill (67.143mm,23.844mm) (68.631mm,25.744mm)  Top Layer and 
+                     Area Fill (65.28mm,21.268mm) (72.78mm,21.632mm)  Top Layer
+   Violation between Area Fill (67.143mm,23.844mm) (68.631mm,25.744mm)  Top Layer and 
+                     Area Fill (65.395mm,23.667mm) (67.445mm,24.683mm)  Top Layer
+   Violation between Area Fill (67.144mm,17.156mm) (68.632mm,19.056mm)  Top Layer and 
+                     Area Fill (65.395mm,18.217mm) (67.445mm,19.233mm)  Top Layer
+   Violation between Area Fill (1.419mm,17.206mm) (2.907mm,19.106mm)  Top Layer and 
+                     Area Fill (1.898mm,18.215mm) (2.428mm,20.135mm)  Top Layer
+   Violation between Area Fill (1.418mm,23.894mm) (2.906mm,25.794mm)  Top Layer and 
+                     Area Fill (1.898mm,22.865mm) (2.428mm,24.785mm)  Top Layer
+   Violation between Area Fill (1.419mm,17.206mm) (2.907mm,19.106mm)  Top Layer and 
+                     Area Fill (-2.73mm,21.318mm) (4.77mm,21.682mm)  Top Layer
+   Violation between Area Fill (1.418mm,23.894mm) (2.906mm,25.794mm)  Top Layer and 
+                     Area Fill (-2.73mm,21.318mm) (4.77mm,21.682mm)  Top Layer
+   Violation between Area Fill (1.419mm,17.206mm) (2.907mm,19.106mm)  Top Layer and 
+                     Area Fill (2.605mm,18.267mm) (4.655mm,19.283mm)  Top Layer
+   Violation between Area Fill (1.418mm,23.894mm) (2.906mm,25.794mm)  Top Layer and 
+                     Area Fill (2.605mm,23.717mm) (4.655mm,24.733mm)  Top Layer
+Rule Violations :40
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+   Violation between Starved Thermal on GND: Via (57.075mm,26.412mm) GND to Bottom Layer
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint (3.2mm > 2.54mm) : Pad Free-5(4mm,4mm)  Multi-Layer
+   Violation between Hole Size Constraint (3.2mm > 2.54mm) : Pad Free-8(4mm,39mm)  Multi-Layer
+   Violation between Hole Size Constraint (3.2mm > 2.54mm) : Pad Free-9(66mm,39mm)  Multi-Layer
+   Violation between Hole Size Constraint (3.2mm > 2.54mm) : Pad Free-12(66mm,4mm)  Multi-Layer
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Text "1" (25.954mm,8.311mm)  Top Overlay and 
+                     Text "C21" (23.492mm,8.6mm)  Top Overlay
+Rule Violations :1
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (55.3mm,26.9mm) Top Layer to Signal Layer 1
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=0.21mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=25.4mm) (InDifferentialPair ('OTG'))
+Rule Violations :0
+
+
+Violations Detected : 52
+Time Elapsed        : 00:00:03
