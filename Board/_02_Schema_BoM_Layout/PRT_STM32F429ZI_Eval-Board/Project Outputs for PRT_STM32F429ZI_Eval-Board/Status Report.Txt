@@ -1,17 +1,13 @@
-Output: NC Drill Files
-Type  : NC Drill
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 19:01:53 On 20/07/2015
+
+Output: Report Board Stack
+Type  : Report Board Stack
 From  : PCB Document [SB7043.PcbDoc]
-   Generated File[SB7043-RoundHoles.TXT]
-   Generated File[SB7043-SlotHoles.TXT]
-   Generated File[SB7043-RoundHoles.TX1]
-   Generated File[SB7043-RoundHoles.TX2]
-   Generated File[SB7043-RoundHoles.TX3]
-   Generated File[SB7043-RoundHoles.TX4]
-   Generated File[SB7043.LDP]
-   Generated File[SB7043.DRR]
 
 
-Files Generated   : 8
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 18:47:03 On 20/07/2015
+Finished Output Generation At 19:01:57 On 20/07/2015
