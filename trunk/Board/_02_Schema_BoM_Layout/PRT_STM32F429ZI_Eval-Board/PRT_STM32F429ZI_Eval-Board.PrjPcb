@@ -28,7 +28,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=
+OutputPath=Project Outputs for PRT_STM32F429ZI_Eval-Board
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -359,6 +359,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document20]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 Description=Cheap
 AllowFabrication=0
@@ -369,6 +386,166 @@ ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Design Rule Check - SB7043.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043-RoundHoles.TX1
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043-RoundHoles.TX1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043-RoundHoles.TX2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043-RoundHoles.TX2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043-RoundHoles.TX3
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043-RoundHoles.TX3
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043-RoundHoles.TX4
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043-RoundHoles.TX4
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.G1
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.G1
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for Free Documents\NC Drill\SB7043.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\NC Drill\SB7043.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.REP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.REP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for Free Documents\Gerber\SB7043.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for PRT_STM32F429ZI_Eval-Board\Gerber\SB7043.RUL
 DItemRevisionGUID=
 
 [SearchPath1]
@@ -426,7 +603,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for PRT_STM32F429ZI_Eval-Board
 
 [OutputGroup1]
 Name=Netlist Outputs
