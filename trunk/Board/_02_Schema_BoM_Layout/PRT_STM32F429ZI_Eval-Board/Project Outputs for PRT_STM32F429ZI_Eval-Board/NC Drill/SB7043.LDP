@@ -1,0 +1,7 @@
+Layer Pairs Export File for PCB: C:\Users\Badr\Documents\prt-ge-s2-2015-svn\trunk\Board\_02_Schema_BoM_Layout\PRT_STM32F429ZI_Eval-Board\SB7043.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=sb7043-roundholes.txt|DrillLayers=gtl,gp1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=sb7043-slotholes.txt|DrillLayers=gtl,gp1,g2,gbl
+LayersSetName=Top_Signal1_Blind_Vias|DrillFile=sb7043-roundholes.tx1|DrillLayers=gtl,gp1,g2
+LayersSetName=Top_GND_Blind_Vias|DrillFile=sb7043-roundholes.tx2|DrillLayers=gtl,gp1
+LayersSetName=Signal1_Bot_Blind_Vias|DrillFile=sb7043-roundholes.tx3|DrillLayers=g2,gbl
+LayersSetName=GND_Bot_Blind_Vias|DrillFile=sb7043-roundholes.tx4|DrillLayers=gp1,g2,gbl
