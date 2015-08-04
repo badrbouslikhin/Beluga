@@ -4,4 +4,3 @@ LayersSetName=Top_Bot_Slot_Holes|DrillFile=sb7043-slotholes.txt|DrillLayers=gtl,
 LayersSetName=Top_Signal1_Blind_Vias|DrillFile=sb7043-roundholes.tx1|DrillLayers=gtl,gp1,g2
 LayersSetName=Top_GND_Blind_Vias|DrillFile=sb7043-roundholes.tx2|DrillLayers=gtl,gp1
 LayersSetName=Signal1_Bot_Blind_Vias|DrillFile=sb7043-roundholes.tx3|DrillLayers=g2,gbl
-LayersSetName=GND_Bot_Blind_Vias|DrillFile=sb7043-roundholes.tx4|DrillLayers=gp1,g2,gbl
