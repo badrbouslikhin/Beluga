@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
-NCDrill File Report For: SB7043.PcbDoc   20/07/2015  18:47:02
+NCDrill File Report For: SB7043.PcbDoc   04/08/2015  02:25:28
 ---------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,29 +8,29 @@ ASCII SlotHoles File : SB7043-SlotHoles.TXT
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        0.5mm (19.685mil)        Round          57               320.23 mm (12.61 Inch)
+T1        0.5mm (19.685mil)        Round          88               375.46 mm (14.78 Inch)
 T2        0.65mm (25.591mil)       Slot           4                137.36 mm (5.41 Inch)
 T3        0.825mm (32.48mil)       Slot           4                280.63 mm (11.05 Inch)
 T4        0.9mm (35.433mil)        Round          22               123.23 mm (4.85 Inch)
 T5        3.2mm (125.984mil)       Round          4         NPTH   159.00 mm (6.26 Inch)
 ---------------------------------------------------------------------------
-Totals                                            91               1020.44 mm (40.17 Inch)
+Totals                                            122              1075.68 mm (42.35 Inch)
 Layer Pair : Top Layer to Signal Layer 1
 ASCII RoundHoles File : SB7043-RoundHoles.TX1
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        0.5mm (19.685mil)        Round          104              437.50 mm (17.22 Inch)
+T1        0.5mm (19.685mil)        Round          105              439.17 mm (17.29 Inch)
 ---------------------------------------------------------------------------
-Totals                                            104              437.50 mm (17.22 Inch)
+Totals                                            105              439.17 mm (17.29 Inch)
 Layer Pair : Top Layer to GND
 ASCII RoundHoles File : SB7043-RoundHoles.TX2
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        0.5mm (19.685mil)        Round          54               295.32 mm (11.63 Inch)
+T1        0.5mm (19.685mil)        Round          52               307.92 mm (12.12 Inch)
 ---------------------------------------------------------------------------
-Totals                                            54               295.32 mm (11.63 Inch)
+Totals                                            52               307.92 mm (12.12 Inch)
 Layer Pair : Signal Layer 1 to Bottom Layer
 ASCII RoundHoles File : SB7043-RoundHoles.TX3
 
@@ -39,15 +39,7 @@ Tool         Hole Size           Hole Type     Hole Count Plated       Tool Trav
 T1        0.5mm (19.685mil)        Round          66               273.72 mm (10.78 Inch)
 ---------------------------------------------------------------------------
 Totals                                            66               273.72 mm (10.78 Inch)
-Layer Pair : GND to Bottom Layer
-ASCII RoundHoles File : SB7043-RoundHoles.TX4
-
-Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        0.5mm (19.685mil)        Round          39               230.70 mm (9.08 Inch)
----------------------------------------------------------------------------
-Totals                                            39               230.70 mm (9.08 Inch)
----------------------------------------------------------------------------
-Totals                                            354              2257.68 mm (88.88 Inch)
+Totals                                            345              2096.50 mm (82.54 Inch)
 
 Total Processing Time (hh:mm:ss) : 00:00:01

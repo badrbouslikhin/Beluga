@@ -1,13 +1,21 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 19:01:53 On 20/07/2015
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [SB7043.PcbDoc]
+   Generated File[SB7043.GTL]
+   Generated File[SB7043.GP1]
+   Generated File[SB7043.G1]
+   Generated File[SB7043.GBL]
+   Generated File[SB7043.GTO]
+   Generated File[SB7043.GTS]
+   Generated File[SB7043.GBS]
+   Generated File[SB7043.GBO]
+   Generated File[SB7043.GKO]
+   Generated File[SB7043.RUL]
+   Generated File[SB7043.EXTREP]
+   Generated File[SB7043.REP]
 
-Output: Report Board Stack
-Type  : Report Board Stack
-From  : PCB Document [SB7043.PcbDoc]
 
-
-Files Generated   : 0
+Files Generated   : 12
 Documents Printed : 0
 
-Finished Output Generation At 19:01:57 On 20/07/2015
+Finished Output Generation At 02:25:33 On 04/08/2015
