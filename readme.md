@@ -10,10 +10,11 @@ The goal was to develop a board built around an ARM Cortex-M4 capable of running
 The microcontroller is an ARM Cortex-M4 produced by STMicroelectronics, the STM32F429ZI.
 There are 256Mb SDRAM and 256Mb NOR Flash memories implemented.
 The following peripherals have been implemented:
-• Color LCD 480x272 interface
-• USB On-The-Go (host and slave) interface
-• SWD debug interface
-• A number of General Purpose Input / Outputs (GPIOs) that can also be used for various devices such as an I2C, SPI, USART, I2S buses, ADC, DAC..
+
+ - Color LCD 480x272 interface 
+ - USB On-The-Go (host and slave) interface
+ - SWD debug interface
+ - A number of General Purpose Input / Outputs (GPIOs) that can also be used for various devices such as an I2C, SPI, USART, I2S buses, ADC, DAC..
 
 The board is autonomous and can be powered by a 5V standard USB power supply.
 A porting uClinux 2.6.33 (February 2010) on the platform is available and maintained by Emcraft company. A custom solution is being developed.
@@ -21,11 +22,12 @@ A porting uClinux 2.6.33 (February 2010) on the platform is available and mainta
 
 01_Schematics_BOM_Layout
 ------------------------
-/BOM/PRT_STM32F429ZI_Eval-Board.xls : Bill of Materials for one board (Microsoft Excel file).
-/Gerber/* : Gerber fabrication files, can be opened with the free gerbv (http://gerbv.geda-project.org/) for example.
-/NC Drill/* : Drill fabrication files.
-/Report Board Stack/SB7043.xls : stackup report (Microsoft Excel file).
-/Schematics_PCB-Prints.PDF : contains 3D rendering of the board (top and bottom), multilayer 2D rendering of the layout and schematics.
+
+ - /BOM/PRT_STM32F429ZI_Eval-Board.xls : Bill of Materials for one board (Microsoft Excel file).
+ - /Gerber/* : Gerber fabrication files, can be opened with the free gerbv (http://gerbv.geda-project.org/) for example.
+ - /NC Drill/* : Drill fabrication files.
+ - /Report Board Stack/SB7043.xls : stackup report (Microsoft Excel file).
+ - /Schematics_PCB-Prints.PDF : contains 3D rendering of the board (top and bottom), multilayer 2D rendering of the layout and schematics.
 
 02_STM32CubeMX
 --------------
