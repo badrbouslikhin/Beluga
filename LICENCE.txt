@@ -1,0 +1,8 @@
+Made by Badr BOUSLIKHIN
+Helped by Douglas RAILLARD
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+This work uses Dangerous Prototype Sick of Beige standard PCB sizes layouts http://dangerousprototypes.com/docs/Sick_of_Beige_standard_PCB_sizes_v1.0
+
+For any further information or query, please contact bouslikhin.badr@gmail.com
