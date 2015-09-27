@@ -1,8 +1,0 @@
-\sectionsansnumero{Résumé}
-Ce projet est avant tout un projet personnel destiné à développer les compétences associées à la création d'une carte de développement sur laquelle un système GNU/Linux serait à même de fonctionner.
-Afin de rendre la carte plus simple à réaliser (design et fabrication) et modifiable, un microcontrôleur a été choisi au lieu d'utiliser un microprocesseur tel qu'un ARM Cortex A8 comme on en trouve sur les cartes BeagleBone Black \autocite{BeagleBoneBlack} ou encore le Cortex A7 de la Raspberry Pi \autocite{RaspberryPi}.
-En effet, la complexité de ces circuits impose de fortes contraintes telles que l'utilisation de RAM DDR/DDR2/DDR3, des boîtiers BGA, faisant exploser les coûts de fabrication au passage.
-En effet au vu des densités de ce ces \glspl{IC}, leur implémentation en boîtier BGA nécessite des finesses de pistes importantes ainsi que des vias de diamètre très faible (vias laser en général), ce qui augmente très fortement la complexité et le coût des \glspl{PCB}.
-De plus ces microprocesseurs requièrent en général un séquencement des alimentations nécessitant une \gls{PMU} pour générer les tensions nécessaires au démarrage du processeur dans le bon ordre. 
-    
-Cette réalisation combine donc autant l'aspect matériel que logiciel, les deux étant fortement couplés via des contraintes dans les deux sens (matériel sur logiciel et logiciel sur matériel).
