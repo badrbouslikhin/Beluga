@@ -20,9 +20,8 @@ The board is autonomous and can be powered by a 5V standard USB power supply.
 A porting uClinux 2.6.33 (February 2010) on the platform is available and maintained by Emcraft company. A custom solution is being developed.
 
 
-01_Schematics_BOM_Layout
+01_Schematics_BOM_Layout_Fabrication
 ------------------------
-
  - /BOM/PRT_STM32F429ZI_Eval-Board.xls : Bill of Materials for one board (Microsoft Excel file).
  - /Gerber/* : Gerber fabrication files, can be opened with the free gerbv (http://gerbv.geda-project.org/) for example.
  - /NC Drill/* : Drill fabrication files.
