@@ -1,6 +1,5 @@
 BelugaBoard - an STM32F4 based embedded uClinux system
 ======================================================
-----------
 Version 1.1 - 04/08/2015
 This repository contains the hardware files (schematics, bill of materials and fabrication files (gerbers, stackup Report and NCDrill files)) for the BelugaBoard, an [STM32F429ZI](www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1577/LN1806/PF255419#) based embedded Linux board.
 This board is a scholar project developed at French engineering school [INSA Lyon](http://www.insa-lyon.fr/), department of electrical engineering.
@@ -36,4 +35,4 @@ It can be downloaded for free at www.st.com/stm32cube-pr2
 
 /PRT.ioc : STM32CubeMX configuration file generated for this board.
 
-For any further information or query, please contact [bouslikhin.badr@gmail.com](mailto:bouslikhin.badr@gmail.com)
+For any further information or inquiry, please contact [bouslikhin.badr@gmail.com](mailto:bouslikhin.badr@gmail.com)
